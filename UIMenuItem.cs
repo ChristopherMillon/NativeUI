@@ -57,6 +57,10 @@ namespace NativeUI
         /// </summary>
         public virtual bool Selected { get; set; }
 
+        /// <summary>
+        /// Stores any data.
+        /// </summary>
+        public object Data { get; set; }
 
         /// <summary>
         /// Whether this item is currently being hovered on with a mouse.
